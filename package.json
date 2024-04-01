@@ -1,0 +1,23 @@
+{
+  "name": "social-media-dashboard-challenge",
+  "version": "1.0.0",
+  "description": "![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avantiermv/social-media-dashboard-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Avantiermv/social-media-dashboard-challenge/issues"
+  },
+  "homepage": "https://github.com/Avantiermv/social-media-dashboard-challenge#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
