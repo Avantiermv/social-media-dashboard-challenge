@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 :root{
+    --font:"Inter", sans-serif;
     --LimeGreen: hsl(163, 72%, 41%);
     --BrightRed: hsl(356, 69%, 56%);
 
