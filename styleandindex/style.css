@@ -42,3 +42,21 @@ body{
 #header > h1, p{
     color: var(--WhiteText);
 }
+
+#button{
+    width: 120px;
+    height: 40px;
+    background-color: var(--YouTube);
+}
+
+#section1{
+    color: var(--WhiteText);
+}
+
+#section1 > div{
+    width: 390px;
+    height: 330px;
+    padding: 10px;
+    background-color: aqua;
+    margin: 5px;
+}
