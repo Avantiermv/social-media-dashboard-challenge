@@ -60,3 +60,13 @@ body{
     background-color: aqua;
     margin: 5px;
 }
+
+#section2 {
+    color: white;
+}
+
+#section2 > div{
+    width: 390px;
+    height: 100px;
+    background-color: blueviolet;
+}
