@@ -39,8 +39,20 @@ body{
     font-family: var(--font);
 }
 
+main{
+    display: grid;
+    justify-content: center;
+}
+
 #header > h1, p{
     color: var(--WhiteText);
+}
+
+#boxbutton{
+    display: grid;
+    justify-content: right;
+    height: 40px;
+    width: 100%;
 }
 
 #button{
@@ -50,11 +62,14 @@ body{
 }
 
 #section1{
+    display: grid;
+    width: 400px;
+    justify-content: center;
     color: var(--WhiteText);
 }
 
 #section1 > div{
-    width: 390px;
+    width: 350px;
     height: 330px;
     padding: 10px;
     background-color: aqua;
@@ -62,10 +77,13 @@ body{
 }
 
 #section2 {
+    display: grid;
+    justify-content: center;
     color: white;
 }
 
 #section2 > div{
+    margin: 10px;
     width: 390px;
     height: 100px;
     background-color: blueviolet;
