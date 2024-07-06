@@ -42,17 +42,18 @@ body{
 main{
     display: grid;
     justify-content: center;
+    min-width: 375px;
 }
 
-#header > h1, p{
+#header > h1, p, hr{
     color: var(--WhiteText);
+    max-width: 375px;
 }
 
 #boxbutton{
     display: grid;
     justify-content: right;
     height: 40px;
-    width: 100%;
 }
 
 #button{
@@ -72,8 +73,14 @@ main{
     width: 350px;
     height: 330px;
     padding: 10px;
+    border: solid;
     background-color: aqua;
     margin: 5px;
+}
+
+#section1 > #face{
+    border-width: 5px 0px 0px 0px;
+    border-color: var(--YouTube);   
 }
 
 #section2 {
