@@ -42,46 +42,54 @@ body{
 main{
     display: grid;
     justify-content: center;
-    min-width: 375px;
 }
 
-#header > h1, p, hr{
+#header > h1, p{
     color: var(--WhiteText);
-    max-width: 375px;
 }
 
 #boxbutton{
-    display: grid;
-    justify-content: right;
-    height: 40px;
-}
-
-#button{
-    width: 120px;
-    height: 40px;
-    background-color: var(--YouTube);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
 }
 
 #section1{
     display: grid;
-    width: 400px;
     justify-content: center;
     color: var(--WhiteText);
 }
 
 #section1 > div{
-    width: 350px;
-    height: 330px;
+    width: 340px;
+    height: 310px;
     padding: 10px;
     border: solid;
-    background-color: aqua;
+    text-align: center;
+    background-color:var(--DarkDesaturatedBlueCardBG);
     margin: 5px;
 }
 
 #section1 > #face{
     border-width: 5px 0px 0px 0px;
+    border-color: var(--Facebook);   
+}
+
+#section1 > #twit{
+    border-width: 5px 0px 0px 0px;
+    border-color: var(--Twitter);   
+}
+
+#section1 > #insta{
+    border-width: 5px 0px 0px 0px;
+    border-color: var();   
+}
+
+#section1 > #youtube{
+    border-width: 5px 0px 0px 0px;
     border-color: var(--YouTube);   
 }
+
 
 #section2 {
     display: grid;
@@ -91,7 +99,8 @@ main{
 
 #section2 > div{
     margin: 10px;
-    width: 390px;
-    height: 100px;
+    width: 340px;
+    height: 110px;
+    padding: 10px;
     background-color: blueviolet;
 }
