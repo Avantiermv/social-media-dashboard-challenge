@@ -102,5 +102,5 @@ main{
     width: 340px;
     height: 110px;
     padding: 10px;
-    background-color: blueviolet;
+    background-color: var(--DarkDesaturatedBlueCardBG);
 }
