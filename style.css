@@ -98,3 +98,7 @@ main{
     padding: 10px;
     background-color: var(--DarkDesaturatedBlueCardBG);
 }
+
+.upgreen{
+    color: var(--LimeGreen);
+}
