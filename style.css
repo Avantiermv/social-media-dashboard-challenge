@@ -102,6 +102,10 @@ main{
     background-color: var(--DarkDesaturatedBlueCardBG);
 }
 
+.h2sc2{
+    font-size: 23px;
+}
+
 .upgreen{
     color: var(--LimeGreen);
 }
