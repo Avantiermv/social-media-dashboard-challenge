@@ -39,10 +39,6 @@ body{
     font-family: var(--font);
 }
 
-main{
-    
-}
-
 #header > h1, p{
     color: var(--WhiteText);
 }
@@ -53,14 +49,15 @@ main{
 
 #section1{
     display: flex;
-    flex: auto;
+    flex-direction: column;
     color: var(--WhiteText);
 }
 
 #section1 > div{
+    flex: auto;
     width: 340px;
     height: 310px;
-    padding: 10px;
+    
     border: solid;
     text-align: center;
     background-color:var(--DarkDesaturatedBlueCardBG);
@@ -87,18 +84,18 @@ main{
     border-color: var(--YouTube);   
 }
 
-
 #section2 {
     display: flex;
-    flex: auto;
+    flex-direction: column;
     color: white;
 }
 
 #section2 > div{
+    flex:auto;
     margin: 10px;
     width: 340px;
     height: 125px;
-    padding: 10px;
+    
     background-color: var(--DarkDesaturatedBlueCardBG);
 }
 
