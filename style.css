@@ -43,6 +43,10 @@ body{
     color: var(--WhiteText);
 }
 
+hr{
+    width: 100%;
+}
+
 #boxbutton{
     padding: 5px;
 }
