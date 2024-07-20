@@ -54,7 +54,15 @@ main{
 }
 
 #boxbutton{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     padding: 5px;
+}
+
+button{
+    width: 100px;
+    height: 50px;
 }
 
 #section1{
@@ -67,7 +75,6 @@ main{
     flex: auto;
     width: 340px;
     height: 310px;
-    
     border: solid;
     text-align: center;
     background-color:var(--DarkDesaturatedBlueCardBG);
@@ -97,15 +104,15 @@ main{
 #section2 {
     display: flex;
     flex-direction: column;
-    color: white;
+    color: var(--WhiteText);
 }
 
 #section2 > div{
     flex:auto;
-    margin: 10px;
+    margin: 5px;
     width: 340px;
     height: 125px;
-    
+    padding: 10px;
     background-color: var(--DarkDesaturatedBlueCardBG);
 }
 
