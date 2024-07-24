@@ -127,3 +127,32 @@ button{
 .reddown{
     color: var(--BrightRed);
 }
+
+.divimg{
+    display: flex;
+    justify-content: space-between;
+    align-itens: center;
+    margin: 5px;
+}
+
+.divimg > img{
+    width: 25px;
+    height: 25px;
+}
+
+.divimg > h2{
+    font-size: 16px;
+    color: var(--DesaturatedBlueText)
+}
+
+.divs2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+.divs2 > h3{
+    font-size: 23px;
+    color: var(--WhiteText)
+}
