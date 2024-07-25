@@ -156,3 +156,14 @@ button{
     font-size: 23px;
     color: var(--WhiteText)
 }
+
+.divarrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+.divarrow > img{
+    margin-right: 5px;
+}
