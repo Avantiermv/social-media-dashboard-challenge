@@ -39,8 +39,15 @@ body{
     font-family: var(--font);
 }
 
-#header > h1, p{
+#header > h1{
     color: var(--WhiteText);
+    margin-top: 5px;
+    margin-bottom: 3px;
+    font-size: 26px;
+}
+
+#header > p{
+    color: var(--DesaturatedBlueText);
 }
 
 hr{
@@ -58,6 +65,10 @@ main{
     justify-content: space-between;
     width: 100%;
     padding: 5px;
+}
+
+#boxbutton > p{
+    color: var(--DesaturatedBlueText);
 }
 
 button{
@@ -101,10 +112,18 @@ button{
     border-color: var(--YouTube);   
 }
 
+.divp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 110px;
+    margin: auto;
+    color: var(--DesaturatedBlueText );
+}
+
 #section2 {
     display: flex;
     flex-direction: column;
-    color: var(--WhiteText);
 }
 
 #section2 > div{
@@ -131,7 +150,6 @@ button{
 .divimg{
     display: flex;
     justify-content: space-between;
-    align-itens: center;
     margin: 5px;
 }
 
