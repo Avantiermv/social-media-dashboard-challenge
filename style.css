@@ -65,11 +65,65 @@ main{
     width: 100%;
 }
 
-#boxbutton{
+.switch {
+
+    align-items: center;
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+} 
+
+input[type=checkbox] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 35px;
+  height: 20px;
+  background: #d0d0d0;
+  display: block;
+  border-radius: 100px;
+  position: relative;
+}
+
+label:after {
+
+ content: "";
+ position: absolute;
+ top: 4px;
+ left: 4px;
+ width: 12px;
+ height: 12px;
+ background: #5e5959;
+ border-radius: 90px;
+ transition: 0.3s;
+
+}
+
+input:checked + label {
+ 
+  background: #00c3ff;
+
+}
+
+input:checked + label:after {
+
+  background: #ffffff;  
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+
+}
+
+label:active:after {
+
+  width: 15px;
+
 }
 
 #boxbutton > p{
