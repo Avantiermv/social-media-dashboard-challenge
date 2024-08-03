@@ -58,6 +58,18 @@ hr{
     width: 100%;
 }
 
+#divswitch{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#h2head{
+    font-size: 17px;
+    color: var(--DesaturatedBlueText);
+}
+
 main{
     display: flex;
     flex-direction: column;
@@ -66,13 +78,11 @@ main{
 }
 
 .switch {
-
     align-items: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-
 } 
 
 input[type=checkbox] {
@@ -93,7 +103,6 @@ label {
 }
 
 label:after {
-
  content: "";
  position: absolute;
  top: 4px;
@@ -103,27 +112,20 @@ label:after {
  background: #5e5959;
  border-radius: 90px;
  transition: 0.3s;
-
 }
 
 input:checked + label {
- 
-  background: #00c3ff;
-
+  background: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
 }
 
 input:checked + label:after {
-
   background: #ffffff;  
   left: calc(100% - 5px);
   transform: translateX(-100%);
-
 }
 
 label:active:after {
-
   width: 15px;
-
 }
 
 #boxbutton > p{
@@ -149,6 +151,11 @@ button{
     text-align: center;
     background-color:var(--DarkDesaturatedBlueCardBG);
     margin: 5px;
+}
+
+#section1 > div:hover{
+    background-color: hsla(228, 34%, 66%, 0.295);
+    transition: 0.5s;
 }
 
 #section1 > #face{
@@ -178,7 +185,7 @@ button{
     align-items: center;
     width: 110px;
     margin: auto;
-    color: var(--DesaturatedBlueText );
+    color: var(--DesaturatedBlueText);
 }
 
 #section2 {
@@ -267,4 +274,20 @@ button{
     margin: 5px;
     width: 115px;
     margin: auto;
+}
+
+@media (min-width: 900px){
+
+    hr{
+        display: none;
+    }
+
+    #divswitch{
+        justify-content: start;
+    }
+
+    #section1{
+        flex-direction: row;
+    }
+
 }
