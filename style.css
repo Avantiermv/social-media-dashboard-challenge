@@ -70,11 +70,10 @@ hr{
     color: var(--DesaturatedBlueText);
 }
 
-main{
+#main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
 }
 
 .switch {
@@ -283,7 +282,8 @@ button{
     }
 
     #divswitch{
-        justify-content: start;
+        width: 160px;
+        height: 50px;
     }
 
     #section1{
