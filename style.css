@@ -50,7 +50,7 @@ h1{
     color: var(--WhiteText);
 }
 
-#header > p{
+#header > #div4 > p{
     color: var(--DesaturatedBlueText);
 }
 
@@ -143,11 +143,11 @@ button{
 }
 
 #section1 > div{
-    flex: auto;
     width: 360px;
     height: 310px;
     border: solid;
     text-align: center;
+    align-items: center;
     background-color:var(--DarkDesaturatedBlueCardBG);
     margin: 5px;
 }
@@ -277,6 +277,12 @@ button{
 
 @media (min-width: 900px){
 
+    #header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     hr{
         display: none;
     }
@@ -290,4 +296,12 @@ button{
         flex-direction: row;
     }
 
+    #section2{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #divs21{
+        width: 100%;
+    }
 }
