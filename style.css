@@ -35,25 +35,25 @@
 }
 
 body{
-    background-color: var(--VeryDarkBlueBG);
+    background-color: var(--WhiteBG);
     font-family: var(--font);
     align-items: center;
    
 }
 
 h1{
-    color: var(--WhiteText);
+    color: var(--DarkGrayishBlueText);
 }
 
-#header > #div4 h1{
-    color: var(--WhiteText);
+#header > #div4 > h1{
+    color: var(--VeryDarkBlueText);
     margin-top: 5px;
     margin-bottom: 3px;
     font-size: 22px;
 }
 
 #header > #div4 > p{
-    color: var(--DesaturatedBlueText);
+    color: var(--DarkGrayishBlueText);
 }
 
 hr{
@@ -69,7 +69,7 @@ hr{
 
 #h2head{
     font-size: 17px;
-    color: var(--DesaturatedBlueText);
+    color: var(--DarkGrayishBlueText);
 }
 
 #main{
@@ -129,7 +129,7 @@ label:active:after {
 }
 
 #boxbutton > p{
-    color: var(--DesaturatedBlueText);
+    color: var(--DarkGrayishBlueText);
 }
 
 button{
@@ -140,7 +140,7 @@ button{
 #section1{
     display: flex;
     flex-direction: column;
-    color: var(--WhiteText);
+    color: var(--DarkGrayishBlueText);
 }
 
 #section1 > div{
@@ -149,12 +149,12 @@ button{
     border: solid;
     text-align: center;
     align-items: center;
-    background-color:var(--DarkDesaturatedBlueCardBG);
+    background-color:var(--LightGrayishBlueCardBG);
     margin: 5px;
 }
 
 #section1 > div:hover{
-    background-color: hsla(228, 34%, 66%, 0.295);
+    background-color: hsla(228, 34%, 66%, 0.527);
     transition: 0.5s;
 }
 
@@ -185,7 +185,7 @@ button{
     align-items: center;
     width: 110px;
     margin: auto;
-    color: var(--DesaturatedBlueText);
+    color: var(--DarkGrayishBlueText);
 }
 
 #section2 {
@@ -199,12 +199,10 @@ button{
     width: 330px;
     height: 125px;
     padding: 10px;
-    background-color: var(--DarkDesaturatedBlueCardBG);
+    background-color: var(--LightGrayishBlueCardBG);
 }
 
-.h2sc2{
-    font-size: 23px;
-}
+
 
 .upgreen{
     color: var(--LimeGreen);
@@ -227,7 +225,7 @@ button{
 
 .divimg > h2{
     font-size: 16px;
-    color: var(--DesaturatedBlueText)
+    color: var(--DarkGrayishBlueText)
 }
 
 .divs2{
@@ -239,7 +237,7 @@ button{
 
 .divs2 > h3{
     font-size: 23px;
-    color: var(--WhiteText)
+    color: var(--VeryDarkBlueText)
 }
 
 .divarrow{
@@ -258,10 +256,11 @@ button{
     text-transform: uppercase;
     margin-top: 5px;
     margin-bottom: 5px;
+    color: var(--VeryDarkBlueText);
 }
 
 .p2{
-    color: var(--DesaturatedBlueText);
+    color: var(--VeryDarkBlueText);
     font-size: 12px;
     letter-spacing: 10px;
     text-transform: uppercase;
