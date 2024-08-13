@@ -225,7 +225,7 @@ button{
 
 .divimg > h2{
     font-size: 16px;
-    color: var(--DarkGrayishBlueText)
+    color: var(--DarkGrayishBlueText);
 }
 
 .divs2{
@@ -237,7 +237,7 @@ button{
 
 .divs2 > h3{
     font-size: 23px;
-    color: var(--VeryDarkBlueText)
+    color: var(--VeryDarkBlueText);
 }
 
 .divarrow{
