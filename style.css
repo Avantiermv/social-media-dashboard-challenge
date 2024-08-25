@@ -259,6 +259,11 @@ button{
     color: var(--VeryDarkBlueText);
 }
 
+.p1{
+    color: var(--VeryDarkBlueText);
+    font-weight: bold;
+}
+
 .p2{
     color: var(--VeryDarkBlueText);
     font-size: 12px;
