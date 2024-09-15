@@ -12,9 +12,8 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 ## Overview
 
@@ -28,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/brave_screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/Avantiermv/social-media-dashboard-challenge)
+- Live Site URL: [Live Site](https://avantiermv.github.io/social-media-dashboard-challenge/)
 
 ## My process
 
@@ -46,13 +45,13 @@ Users should be able to:
 
 ### What I learned
 
+I learned how to use the flexbox, but i have to learn much more yet about this.
+
 ### Continued development
 
-
-
+I'm going to study a lot more javascript and add typescript to my studies, flexbox and grid-layout. I'm going to focus part of my learning on the frontend, but my goal is the backend.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Avantiermv](https://www.frontendmentor.io/profile/Avantiermv)
 
