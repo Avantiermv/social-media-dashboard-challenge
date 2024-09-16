@@ -191,6 +191,7 @@ button{
 
 #section2 {
     display: flex;
+    align-items: center;
     flex-direction: column;
 }
 
